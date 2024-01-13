@@ -24,6 +24,7 @@ export default {
     <CitySearch />
     <CityList :cities="cities" />
     <router-link :to="{ name: 'search', params: { cityName: 'New York' } }">Search New York</router-link>
+    <p v-if="cities.length === 0">No cities available</p>
   </div>
 </template>
 

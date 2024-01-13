@@ -4,6 +4,7 @@
     <input v-model="cityName" placeholder="Enter city name" />
     <button @click="search">Search</button>
     <p v-if="searchedCity">You searched for: {{ searchedCity }}</p>
+    <p v-show="searchedCity">You searched for: {{ searchedCity }}</p>
   </div>
 </template>
 
@@ -35,6 +36,7 @@ div {
 input {
   padding: 8px;
   margin-right: 8px;
+  margin-top: 20px;
 }
 
 button {

@@ -17,7 +17,7 @@
 
 <template>
   <div>
-    <h2>City List</h2>
+    <h2 :class="{ highlighted: isHighlighted }">City List</h2>
     <ul>
       <li v-for="city in cities" :key="city">{{ city }}</li>
     </ul>

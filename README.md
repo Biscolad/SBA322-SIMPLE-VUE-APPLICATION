@@ -1,3 +1,14 @@
+Welcome to the City Search Vue Application! This application allows users to search for cities and view details about each city.
+
+## Features
+- Search for cities and view search results.
+- Navigate between Home and About views.
+- View details of a selected city.
+
+
+
+
+
 # SBA322-SIMPLE VUE APPLICATION
 
 This template should help get you started developing with Vue 3 in Vite.

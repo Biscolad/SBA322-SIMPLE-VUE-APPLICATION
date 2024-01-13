@@ -3,6 +3,7 @@
   <div>
     <input v-model="cityName" placeholder="Enter city name" />
     <button @click="search">Search</button>
+    <p v-if="searchedCity">You searched for: {{ searchedCity }}</p>
   </div>
 </template>
 
@@ -15,7 +16,9 @@ export default {
   },
   methods: {
     search() {
-      
+      // Implement search logic
+      this.searchedCity = this.cityName;
+            
     },
   },
 };

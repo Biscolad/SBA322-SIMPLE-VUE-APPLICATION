@@ -10,6 +10,7 @@ export default {
   data() {
     return {
       cities: ['New York', 'London', 'Tokyo'],
+      message: '',
     };
   },
 };
@@ -28,7 +29,15 @@ export default {
 
 
 
-<style>
+<style scoped>
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #4caf50;
+}
 </style>
 
 

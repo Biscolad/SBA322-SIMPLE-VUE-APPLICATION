@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 </script>
 
 
@@ -16,4 +16,21 @@
     align-items: center;
   }
 }
+</style> -->
+
+
+
+<template>
+  <div>
+    <h1>About City Search</h1>
+    <p>This is a Vue.js application for city search.</p>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
 </style>
+

@@ -1,22 +1,21 @@
 <script setup>
-import HomeView from './views/HomeView.vue'
-import AboutView from './views/AboutView.vue'
-
-import CitySearch from './views/CitySearch.vue'
-import CityDetail from './views/CityDetail.vue'
-
+import Nav from './components/Nav.vue'
+// import HomeView from './views/HomeView.vue'
+// import AboutView from './views/AboutView.vue'
+import CitySearch from './components/CitySearch.vue'
+import CityList from './components/CityList.vue'
 </script>
 
-
-
-
 <template>
-  <div>
+  <div id="app">
     <h1>Welcome to City Search</h1>
-    <HomeView></HomeView>
-    <AboutView></AboutView>
+    <div class="navBar">
+      <Nav></Nav>
+      <!-- <HomeView></HomeView>
+      <AboutView></AboutView> -->
+    </div>
     <CitySearch></CitySearch>
-    <CityDetail></CityDetail>
+    <CityList></CityList>
   </div>
   
 </template>
@@ -25,5 +24,11 @@ import CityDetail from './views/CityDetail.vue'
 
 
 <style scoped>
+
+#app {
+  text-align: center;
+  padding: 20px;
+}
+
 
 </style>
